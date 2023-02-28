@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da99286715372741bb8e6be0ddc1be6, type: 3}
+  m_Name: BuildObjectList
+  m_EditorClassIdentifier: 
+  buildObjectList:
+  - model: {fileID: 7619938649302997569, guid: 3bf619a4d31f7924283ff142ba5fc642, type: 3}
+    ID: 0
+    name: Wall
+    defaultInformation: []
+  - model: {fileID: 2958978871884634761, guid: 57c62d1621b86c14fafe6b6d421ac170, type: 3}
+    ID: 1
+    name: 2WayCube
+    defaultInformation: []
+  - model: {fileID: 4476733877998851054, guid: 96a7d6838c8da3641838884cd44798ab, type: 3}
+    ID: 2
+    name: LaserSender
+    defaultInformation:
+    - name: Laser Type
+      value: WhiteLaser
+    - name: Power
+      value: 5
+  - model: {fileID: 3824745304875266646, guid: c8db5cfe428e3c44cad3cee50a883e4e, type: 3}
+    ID: 3
+    name: Mirror
+    defaultInformation: []
+  - model: {fileID: 4491504108064111078, guid: 64b48ecc865831241bbd311b9a14be08, type: 3}
+    ID: 4
+    name: LaserReceiver
+    defaultInformation:
+    - name: Laser Type
+      value: NA
+    - name: Power
+      value: -1
+    - name: Trigger Tag
+      value: 
+    - name: Is Goal
+      value: false
+    - name: Level Name
+      value: 
+  - model: {fileID: 6595053900959016352, guid: f80c5536c44cf36489a403e05fdc52c8, type: 3}
+    ID: 5
+    name: ColorChanger
+    defaultInformation:
+    - name: Color
+      value: RedLaser
+  - model: {fileID: 1654190023951138600, guid: d8da67c54322c804f92cfff4ed07fce0, type: 3}
+    ID: 6
+    name: Door1
+    defaultInformation:
+    - name: Tag
+      value: Door
+    - name: Open Rate
+      value: 0
+  - model: {fileID: 2246261953554600940, guid: 3872b54c28aff4f40a3951b7eeb7e256, type: 3}
+    ID: 7
+    name: VRPlayer
+    defaultInformation: []
+  - model: {fileID: 4530222651962516948, guid: 42331858f4f038841999daa82c503af9, type: 3}
+    ID: 8
+    name: Glass
+    defaultInformation:
+    - name: Color
+      value: BlackLaser
+  - model: {fileID: 5866271710770786692, guid: 391707908ead293419239fa26bea92da, type: 3}
+    ID: 9
+    name: Elevator
+    defaultInformation:
+    - name: SceneTag
+      value: Elevator
+    - name: StartX
+      value: 0
+    - name: StartY
+      value: 0
+    - name: StartZ
+      value: 0
+    - name: EndX
+      value: 0
+    - name: EndY
+      value: 0
+    - name: EndZ
+      value: 0
+  - model: {fileID: 8672157734815561201, guid: 7d6a3659c628eeb4aa8745cd762c1f75, type: 3}
+    ID: 10
+    name: Portal
+    defaultInformation:
+    - name: SceneTag
+      value: ThisPortal
+    - name: LinkedSceneTag
+      value: TargetPortal
+  - model: {fileID: 7649561118122534446, guid: 84c52d949fba05e41b4df9b9c9d61da2, type: 3}
+    ID: 11
+    name: MovingPortal
+    defaultInformation:
+    - name: sceneTag
+      value: MovingPortal
+    - name: LinkedPortal
+      value: TargetPortal
+    - name: StartX
+      value: 0
+    - name: StartY
+      value: 0
+    - name: StartZ
+      value: 0
+    - name: EndX
+      value: 0
+    - name: EndY
+      value: 0
+    - name: EndZ
+      value: 0
+  - model: {fileID: 5586968771136947342, guid: 83a10f49352c844428d464cd8e6aaa9c, type: 3}
+    ID: 12
+    name: InstructionImage
+    defaultInformation: []
+  - model: {fileID: 3707288201947701967, guid: e501f55363bca8b4599f68e1000a060e, type: 3}
+    ID: 13
+    name: TrophyImage
+    defaultInformation: []
+  pickableObjectList:
+  - 2WayCube
+  rotatableObjectList:
+  - Mirror
